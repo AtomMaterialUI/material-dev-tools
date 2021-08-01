@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [master, docs]
+  pull_request:
+    branches: [master, docs]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - uses: actions/checkout@v2.3.1
+        name: Checkout using Node.js ${{ matrix.node-version }}
+
+      - uses: actions/setup-node@v2
+        with:
+          always-auth: true
+          node-version: ${{ matrix.node-version }}
+          registry-url: https://registry.npmjs.org
+      - run: npm ci
+        name: Install packages
+
+      - run: npm run build --if-present
+      - run: npm run build-storybook
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages
+          folder: docs
+          clean: true
+          target-folder: docs
