@@ -1,6 +1,6 @@
 {
   "name": "material-dev-tools",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Material Theme for Chrome Devtools",
   "main": "devtools.html",
   "author": "Elior Boukhobza <heliosaian@gmail.com>",
@@ -26,7 +26,7 @@
     "release": "gulp release"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "19.0.0",
+    "@rollup/plugin-commonjs": "19.0.2",
     "@rollup/plugin-node-resolve": "13.0.6",
     "gulp": "4.0.2",
     "gulp-clean": "0.4.0",
