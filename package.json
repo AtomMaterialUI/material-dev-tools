@@ -1,6 +1,6 @@
 {
   "name": "material-dev-tools",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Material Theme for Devtools",
   "main": "devtools.html",
   "author": "Elior Boukhobza <heliosaian@gmail.com>",
@@ -12,7 +12,7 @@
     "polka": "0.5.2",
     "prismjs": "1.25.0",
     "sirv": "1.0.19",
-    "sirv-cli": "^1.0.14"
+    "sirv-cli": "^2.0.0"
   },
   "scripts": {
     "build": "rollup -c",
