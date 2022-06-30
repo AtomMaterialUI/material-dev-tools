@@ -26,7 +26,7 @@
     "release": "gulp release"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "21.0.3",
+    "@rollup/plugin-commonjs": "22.0.1",
     "@rollup/plugin-node-resolve": "13.2.0",
     "gulp": "4.0.2",
     "gulp-clean": "0.4.0",
