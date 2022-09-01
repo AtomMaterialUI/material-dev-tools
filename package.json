@@ -1,6 +1,6 @@
 {
   "name": "material-dev-tools",
-  "version": "6.0.5",
+  "version": "6.0.6",
   "description": "Material Theme for Devtools",
   "main": "devtools.html",
   "author": "Elior Boukhobza <heliosaian@gmail.com>",
@@ -26,7 +26,7 @@
     "release": "gulp release"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "21.0.3",
+    "@rollup/plugin-commonjs": "21.1.0",
     "@rollup/plugin-node-resolve": "13.2.0",
     "gulp": "4.0.2",
     "gulp-clean": "0.4.0",
