@@ -1,6 +1,6 @@
 {
   "name": "material-dev-tools",
-  "version": "7.5.1",
+  "version": "7.5.2",
   "description": "Material Theme for Devtools",
   "author": "Elior Boukhobza <heliosaian@gmail.com>",
   "license": "MIT",
@@ -33,7 +33,7 @@
     "gulp-zip": "5.1.0",
     "node-fetch": "3.3.2",
     "npm-run-all": "4.1.5",
-    "prettier": "3.0.3",
+    "prettier": "3.1.0",
     "sass": "1.69.5",
     "stylelint": "15.11.0",
     "stylelint-prettier": "4.0.2",
