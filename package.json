@@ -1,6 +1,6 @@
 {
   "name": "material-dev-tools",
-  "version": "7.5.0",
+  "version": "7.5.1",
   "description": "Material Theme for Devtools",
   "author": "Elior Boukhobza <heliosaian@gmail.com>",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "compression": "1.7.4",
     "polka": "0.5.2",
     "prismjs": "1.29.0",
-    "svelte": "4.2.2",
+    "svelte": "4.2.5",
     "svelte-preprocess": "^5.0.4"
   },
   "scripts": {
