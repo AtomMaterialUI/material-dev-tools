@@ -39,7 +39,7 @@
     "stylelint-prettier": "4.0.2",
     "@plasmohq/prettier-plugin-sort-imports": "4.0.1",
     "@types/chrome": "0.0.251",
-    "@types/node": "20.8.10",
+    "@types/node": "20.9.2",
     "typescript": "5.2.2"
   },
   "manifest": {
