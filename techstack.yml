@@ -1,7 +1,8 @@
 repo_name: mallowigi/material-dev-tools
 report_id: b7bb6818c9311d643b25cdacf068701c
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-19T07:59:52+00:00'
+timestamp: '2024-01-05T08:37:20+00:00'
 requested_by: mallowigi
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/mallowigi/material-dev-tools
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/mallowigi/material-dev-tools
   detection_source: Repo Metadata
 - name: Node.js
   description: A platform built on Chrome's JavaScript runtime for easily building
@@ -36,6 +39,20 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jonas Augsburger
+  last_updated_on: 2018-10-29 10:28:51.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package.json
   detection_source: package.json
   last_updated_by: Jonas Augsburger
   last_updated_on: 2018-10-29 10:28:51.000000000 Z
@@ -48,9 +65,10 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/6113/7exmJEg4_400x400.png
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package.json
   detection_source: package.json
-  last_updated_by: Elior
-  last_updated_on: 2023-11-06 13:51:28.000000000 Z
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-19 08:04:28.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -59,6 +77,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mallowigi/material-dev-tools
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -68,23 +87,24 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/.github/workflows/quality-checks.yml
   detection_source: ".github/workflows/quality-checks.yml"
   last_updated_by: renovate[bot]
-  last_updated_on: 2022-09-01 14:34:09.000000000 Z
+  last_updated_on: 2023-11-19 08:08:51.000000000 Z
 - name: Prettier
   description: 'Prettier is an opinionated code formatter. '
   website_url: https://prettier.io/
-  version: 3.0.3
+  version: 3.1.0
   license: MIT
   open_source: true
   hosted_saas: false
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
-  last_updated_by: Elior
-  last_updated_on: 2023-11-06 13:51:28.000000000 Z
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-19 08:08:38.000000000 Z
 - name: Stylelint
   description: A mighty, modern CSS linter
   website_url: http://stylelint.io/
@@ -95,7 +115,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2023-11-05 17:19:50.000000000 Z
@@ -109,7 +129,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/844/iruTC031.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2022-03-18 11:59:58.000000000 Z
@@ -121,6 +141,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package.json
   detection_source: package.json
   last_updated_by: Jonas Augsburger
   last_updated_on: 2018-10-29 10:28:51.000000000 Z
@@ -134,24 +155,24 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2023-11-05 17:19:50.000000000 Z
 - name: "@types/node"
   description: TypeScript definitions for Node.js
   package_url: https://www.npmjs.com/@types/node
-  version: 20.8.10
+  version: 20.9.2
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
-  last_updated_by: Elior
-  last_updated_on: 2023-11-06 13:51:28.000000000 Z
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-19 08:54:27.000000000 Z
 - name: compression
   description: Node.js compression middleware
   package_url: https://www.npmjs.com/compression
@@ -162,10 +183,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16187/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
-  last_updated_by: Elior
-  last_updated_on: 2023-11-10 15:54:11.000000000 Z
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-19 08:08:38.000000000 Z
 - name: gulp-clean
   description: A gulp plugin for removing files and folders
   package_url: https://www.npmjs.com/gulp-clean
@@ -176,7 +197,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16218/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2022-03-18 11:59:58.000000000 Z
@@ -190,7 +211,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16301/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2022-03-18 11:59:58.000000000 Z
@@ -205,7 +226,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17603/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2022-03-18 11:59:58.000000000 Z
@@ -219,7 +240,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2023-11-06 13:51:28.000000000 Z
@@ -233,7 +254,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16002/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2023-11-05 17:19:50.000000000 Z
@@ -247,7 +268,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16846/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2022-03-18 11:59:58.000000000 Z
@@ -261,10 +282,10 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
-  last_updated_by: Elior
-  last_updated_on: 2023-11-06 13:51:28.000000000 Z
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-19 08:54:27.000000000 Z
 - name: npm-run-all
   description: A CLI tool to run multiple npm-scripts in parallel or sequential
   package_url: https://www.npmjs.com/npm-run-all
@@ -275,7 +296,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2021-06-11 17:55:14.000000000 Z
@@ -289,21 +310,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: package-lock.json
-  detection_source: package.json
-  last_updated_by: Elior
-  last_updated_on: 2023-11-05 17:19:50.000000000 Z
-- name: sass
-  description: A pure JavaScript implementation of Sass
-  package_url: https://www.npmjs.com/sass
-  version: 1.69.5
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: npm Packages
-  image_url: https://img.stackshare.io/package/16057/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/mallowigi/material-dev-tools/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Elior
   last_updated_on: 2023-11-05 17:19:50.000000000 Z
