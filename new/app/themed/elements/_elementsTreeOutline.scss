@@ -80,7 +80,7 @@
 }
 
 .elements-disclosure li.parent::before {
-  background-color: $foreground;
+  color: $foreground;
 }
 
 .elements-disclosure li.hovered:not(.selected) .selection {
@@ -155,7 +155,7 @@
 }
 
 .gutter-menu-icon {
-  background-color: $foreground;
+  color: $foreground;
 }
 
 li.hovered:not(.always-parent) + ol.children:not(.shadow-root) {

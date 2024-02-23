@@ -94,9 +94,14 @@ input[type='checkbox']:not(.dt-checkbox-themed):not(.enabled-button) {
 
 .dt-checkbox-text,
 .devices-list-title {
-  overflow: visible;
+  overflow: unset;
+}
 
-  &::before {
-    margin-top: -2px;
-  }
+.filter-checkbox-filter > [is='dt-checkbox'] {
+  overflow: unset;
+}
+
+input[type='checkbox'] {
+  accent-color: $accent1;
+  color: $bg;
 }

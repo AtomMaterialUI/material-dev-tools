@@ -9,7 +9,7 @@
 }
 
 .toolbar-dropdown-arrow {
-  background-color: $foreground;
+  $color: $foreground;
 }
 
 .toolbar-text {
@@ -17,7 +17,7 @@
 }
 
 .toolbar-button.dark-text .toolbar-dropdown-arrow {
-  background-color: $foreground;
+  color: $foreground;
 }
 
 .toolbar-render-as-links * {
@@ -30,11 +30,12 @@
 }
 
 .toolbar-glyph {
-  background-color: $primary;
+  background-color: transparent;
+  border-radius: 50%;
 }
 
 .toolbar-button.dark-text .toolbar-dropdown-arrow {
-  background-color: $foreground;
+  color: $foreground;
 }
 
 .toolbar-button.dark-text .toolbar-text {
@@ -42,7 +43,7 @@
 }
 
 :not(.toolbar-render-as-links) .toolbar-button:enabled:hover:not(:active) .toolbar-glyph {
-  background-color: $accent2;
+  background-color: $trans-accent2;
 }
 
 :not(.toolbar-render-as-links) .toolbar-button:enabled:hover:not(:active) .toolbar-text {
@@ -51,7 +52,7 @@
 
 .toolbar-button.toolbar-state-on .toolbar-glyph,
 .toolbar-blue-on-hover .toolbar-button:not(.toolbar-state-on):enabled:hover:not(:active) {
-  background-color: $accent1;
+  background-color: $trans-accent;
 }
 
 .toolbar-button.toolbar-state-on .toolbar-text {
@@ -59,7 +60,7 @@
 }
 
 .toolbar-blue-on-hover .toolbar-button:not(.toolbar-state-on):enabled:hover .toolbar-glyph {
-  background-color: $accent2;
+  background-color: $trans-accent2;
 }
 
 .toolbar-blue-on-hover .toolbar-button:not(.toolbar-state-on):enabled:hover .toolbar-text {
@@ -68,7 +69,7 @@
 
 .toolbar-button.toolbar-state-on:enabled:hover:not(:active) .toolbar-glyph,
 .toolbar-blue-on-hover .toolbar-button:not(.toolbar-state-on):enabled:active:hover {
-  background-color: $accent2;
+  background-color: $trans-accent2;
 }
 
 .toolbar-button.toolbar-state-on:enabled:hover:not(:active) .toolbar-text {
@@ -81,7 +82,7 @@
 
 .toolbar-button.toolbar-state-on.toolbar-toggle-with-red-color .toolbar-glyph,
 .toolbar-button.toolbar-state-off.toolbar-default-with-red-color .toolbar-glyph {
-  background-color: $error-color !important;
+  background-color: $trans-accent3 !important;
 }
 
 .toolbar-item.checkbox:hover {

@@ -46,3 +46,8 @@ header {
 .keybinds-set-select label p {
   color: $fg;
 }
+
+.keybinds-list-item:not(.keybinds-category-header):hover,
+.keybinds-list-item:not(.keybinds-editing):focus-within {
+  background-color: $tree;
+}

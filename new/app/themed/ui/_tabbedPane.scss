@@ -93,7 +93,7 @@
 }
 
 .tabbed-pane-header-tabs-drop-down-container > .chevron-icon {
-  background-color: $foreground;
+  color: $foreground;
 }
 
 .tabbed-pane-header-tabs-drop-down-container:hover {
@@ -117,4 +117,12 @@
 .tabbed-pane-header-tab-title {
   text-overflow: clip;
   overflow: visible;
+}
+
+.tabbed-pane-header {
+  background: $contrast;
+}
+
+.item.highlighted {
+  background-color: $selBg;
 }

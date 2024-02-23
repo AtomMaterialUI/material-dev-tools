@@ -2,6 +2,7 @@
   import defaultStyle from 'data-text:./assets/default.css';
   import darkStyle from 'data-text:./assets/dark.css';
   import lightStyle from 'data-text:./assets/light.css';
+  import hexRgb from 'hex-rgb';
 
   (async function(w, storage, panels, browserAction) {
     const SETTINGS = 'devtools-settings';
@@ -109,6 +110,13 @@
             accentColor: accentColor
           });
         }
+      },
+
+      hexRGB(hex, alpha) {
+        if (!hex) {
+          return hexRgb('#000000', { format: 'css', alpha });
+        }
+        return hexRgb(hex.replace('\'', ''), { format: 'css', alpha });
       },
 
       /**
@@ -219,6 +227,24 @@
             --notif: ${notif};
             --accent: ${accentColor || accent};
             --excluded: ${excluded};
+
+            --trans-bg: ${this.hexRGB(background, 0.5)};
+            --trans-fg: ${this.hexRGB(foreground, 0.5)};
+            --trans-text: ${this.hexRGB(primary, 0.5)};
+            --trans-selBg: ${this.hexRGB(selectBg, 0.5)};
+            --trans-selFg: ${this.hexRGB(selectFg, 0.5)};
+            --trans-selFg2: ${this.hexRGB(selectFg2, 0.5)};
+            --trans-button: ${this.hexRGB(button, 0.5)};
+            --trans-disabled: ${this.hexRGB(disabled, 0.5)};
+            --trans-contrast: ${this.hexRGB(contrast, 0.5)};
+            --trans-second: ${this.hexRGB(second, 0.5)};
+            --trans-active: ${this.hexRGB(table, 0.5)};
+            --trans-border: ${this.hexRGB(border, 0.5)};
+            --trans-hl: ${this.hexRGB(highlight, 0.5)};
+            --trans-tree: ${this.hexRGB(tree, 0.5)};
+            --trans-notif: ${this.hexRGB(notif, 0.5)};
+            --trans-accent: ${this.hexRGB(accentColor || accent, 0.5)};
+            --trans-excluded: ${this.hexRGB(excluded, 0.5)};
 
             --tags: ${tags};
             --attributes: ${attributes};

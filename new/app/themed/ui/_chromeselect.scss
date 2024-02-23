@@ -3,6 +3,7 @@
   border-radius: 4px;
   color: $fg;
   background: $contrast;
+  background-image: none !important;
   box-shadow: none;
 
   &:focus {
@@ -12,5 +13,21 @@
   &:hover {
     background: $bg;
     color: $selFg;
+  }
+}
+
+.workspace-settings-tab .settings-info-message {
+  background: $second;
+}
+
+.harmony-input:not([type]),
+.harmony-input[type='number'],
+.harmony-input[type='text'] {
+  border-color: $hl;
+
+  &:focus,
+  &:active {
+    border: 2px solid $accent1 !important;
+    outline: 2px solid $accent1 !important;
   }
 }
