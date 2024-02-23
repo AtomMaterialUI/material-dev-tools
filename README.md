@@ -40,6 +40,8 @@ Material Theme Colors. And just like its inspiration, it also provides options t
 - Accent Color
 - Accent Scrollbars
 
+----
+
 ## Installation
 
 1. Open Developer Tools
@@ -106,6 +108,20 @@ npm run themes
 - `/src/devtools.svelte` -> generates the `:root` inside the Devtools panel
 - `public/themes.yml` -> Themes Manifest, will generate `themes.json` used by the extension
 
+## Releasing
+
+1. Run `plasmo:zip` to create the zip file
+
+```shell
+npm run plasmo:zip
+```
+
+2. Bump the version in package.json
+
+3. Upload the `.plasmo/xxx.zip` file to the Chrome Web Store
+
+---
+
 ## FAQ
 
 #### I have installed the extension but nothing happened.
@@ -129,12 +145,3 @@ Please make sure you've selected the `DARK` or `LIGHT` theme in the DevTools set
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
