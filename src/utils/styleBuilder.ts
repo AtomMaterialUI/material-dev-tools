@@ -1,5 +1,6 @@
 import type { Store } from '~store/store';
 import type { Colors, AppSettings } from '~types/types';
+import hexRgb from 'hex-rgb';
 
 /**
  * Service to build the styles
@@ -155,6 +156,13 @@ export const styleBuilder = {
     fontSize,
     accentColor,
   }: Colors & AppSettings) {
+    function hexRGB(hex: string, alpha: number) {
+      if (!hex) {
+        return hexRgb('#000000', { format: 'css', alpha });
+      }
+      return hexRgb(hex.replace("'", ''), { format: 'css', alpha });
+    }
+
     // language=CSS
     return `
       :root {
@@ -175,6 +183,24 @@ export const styleBuilder = {
         --notif: ${notif};
         --accent: ${accentColor || accent};
         --excluded: ${excluded};
+
+        --trans-bg: ${hexRGB(background, 0.5)};
+        --trans-fg: ${hexRGB(foreground, 0.5)};
+        --trans-text: ${hexRGB(text, 0.5)};
+        --trans-selBg: ${hexRGB(selectBg, 0.5)};
+        --trans-selFg: ${hexRGB(selectFg, 0.5)};
+        --trans-selFg2: ${hexRGB(selectFg2, 0.5)};
+        --trans-button: ${hexRGB(button, 0.5)};
+        --trans-disabled: ${hexRGB(disabled, 0.5)};
+        --trans-contrast: ${hexRGB(contrast, 0.5)};
+        --trans-second: ${hexRGB(second, 0.5)};
+        --trans-active: ${hexRGB(table, 0.5)};
+        --trans-border: ${hexRGB(border, 0.5)};
+        --trans-hl: ${hexRGB(hl, 0.5)};
+        --trans-tree: ${hexRGB(tree, 0.5)};
+        --trans-notif: ${hexRGB(notif, 0.5)};
+        --trans-accent: ${hexRGB(accentColor || accent, 0.5)};
+        --trans-excluded: ${hexRGB(excluded, 0.5)};
 
         --tags: ${tags};
         --attributes: ${attributes};
