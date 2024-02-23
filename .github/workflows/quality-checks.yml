@@ -8,11 +8,11 @@ on:
   pull_request:
 jobs:
   quality-checks:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     timeout-minutes: 10
     steps:
       - name: Checkout
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v4.1.1
       - name: Cache Pre-commit
         uses: actions/cache@v3
         with:
@@ -22,4 +22,4 @@ jobs:
             ~/.cache/pip
           key: ${{ runner.os }}-${{ hashFiles('./.pre-commit-config.yaml') }}
       - name: Pre-commit
-        uses: pre-commit/action@v2.0.3
+        uses: pre-commit/action@v3.0.0
