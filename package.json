@@ -1,6 +1,6 @@
 {
   "name": "material-dev-tools",
-  "version": "7.6.2",
+  "version": "7.6.3",
   "description": "Material Theme for Devtools",
   "author": "Elior Boukhobza <heliosaian@gmail.com>",
   "license": "MIT",
@@ -47,7 +47,7 @@
     "@plasmohq/prettier-plugin-sort-imports": "4.0.1",
     "@types/chrome": "0.0.251",
     "@types/node": "20.9.2",
-    "typescript": "5.2.2"
+    "typescript": "5.5.2"
   },
   "manifest": {
     "name": "Material DevTools Theme Collection",
