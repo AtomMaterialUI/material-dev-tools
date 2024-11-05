@@ -1,6 +1,6 @@
 {
   "name": "material-dev-tools",
-  "version": "7.6.2",
+  "version": "7.6.3",
   "description": "Material Theme for Devtools",
   "author": "Elior Boukhobza <heliosaian@gmail.com>",
   "license": "MIT",
@@ -36,7 +36,7 @@
     "gulp-copy": "4.0.1",
     "gulp-rename": "2.0.0",
     "gulp-sass": "5.1.0",
-    "gulp-yaml": "^2.0.4",
+    "gulp-yaml": "2.0.4",
     "gulp-zip": "6.0.0",
     "node-fetch": "3.3.2",
     "npm-run-all": "4.1.5",
