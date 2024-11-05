@@ -1,3 +1,8 @@
+# IMPORTANT: Chromium decided to end support to custom stylesheets for the DevTools. As a result, this plugin is no longer working.
+
+
+
+
 ![Logo](https://github.com/mallowigi/material-dev-tools/blob/3b1650b8f229210098b07f523846bc05167fbd77/icon128.png?raw=true)
 
 # Material DevTools Collection
