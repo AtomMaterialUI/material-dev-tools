@@ -7,7 +7,7 @@
   "dependencies": {
     "@github/mini-throttle": "^2.1.1",
     "compression": "1.7.4",
-    "plasmo": "^0.84.2",
+    "plasmo": "^0.89.1",
     "polka": "0.5.2",
     "prismjs": "1.29.0",
     "svelte": "4.2.5",
